@@ -36,6 +36,6 @@ We are lenient on purpose. That is, we will allow deserializing a serialized `ve
 
 ### Interopability
 
-The binary output is a legal [bencode][http://en.wikipedia.org/wiki/Bencode] stream. Since bencode requires map
+The binary output is a legal [bencode](http://en.wikipedia.org/wiki/Bencode) stream. Since bencode requires map
 keys to be ordered, we do not use maps to encode maps, to allow streaming those maps to the data stream without
 preordering the keys.
